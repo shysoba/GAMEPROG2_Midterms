@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FunctionTest : MonoBehaviour
 {
+    public static FunctionTest Instance;
     public List<Color> color;
     public MeshRenderer meshRenderer;
     public int i = 0;

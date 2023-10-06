@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17757887, g: 0.22232226, b: 0.30451742, a: 1}
+  m_IndirectSpecularColor: {r: 0.17757928, g: 0.22232299, b: 0.30451888, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -229,8 +229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a05a5be084cbf874a9e710b315ef682e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointB: {fileID: 0}
-  rangeValue: 30
+  rangeValue: 35
   currentRotation: {x: 0, y: 0, z: 0, w: 0}
   rotSpeed: 30
   targetA: {fileID: 1445866158493797746, guid: d0354b21f0b876048967cf90ab8d6bcb, type: 3}
@@ -1774,7 +1773,7 @@ Transform:
   m_GameObject: {fileID: 661350281}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.00009, y: 0.00131, z: 0.0065}
+  m_LocalPosition: {x: 0.00009, y: 0.00131, z: 0.0147}
   m_LocalScale: {x: 0.0039594714, y: 0.002373406, z: 0.005012715}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2711,7 +2710,7 @@ Rigidbody:
   serializedVersion: 4
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -2747,8 +2746,7 @@ MeshRenderer:
   m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f1125ff05a06d6d4c84d2a911ab485f2, type: 2}
+  m_Materials: []
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3374,8 +3372,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -874, y: 75}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -864, y: 2}
+  m_SizeDelta: {x: -381.9141, y: 237}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1529518929
 MonoBehaviour:
@@ -3397,7 +3395,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: YOU DIED
+  m_text: Game Over
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 634c707fb679dc040bd60efd899b61e0, type: 2}
   m_sharedMaterial: {fileID: 330934275846330531, guid: 634c707fb679dc040bd60efd899b61e0,
@@ -3425,8 +3423,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 160
-  m_fontSizeBase: 160
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5340,22 +5338,22 @@ PrefabInstance:
     - target: {fileID: 6379887797678350795, guid: bf7c55b65b3029744a13c4f9d231d737,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 6379887797678350795, guid: bf7c55b65b3029744a13c4f9d231d737,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.4
+      value: -0.8
       objectReference: {fileID: 0}
     - target: {fileID: 6379887797678350795, guid: bf7c55b65b3029744a13c4f9d231d737,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 125.5
+      value: 123.34085
       objectReference: {fileID: 0}
     - target: {fileID: 6379887797678350795, guid: bf7c55b65b3029744a13c4f9d231d737,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6379887797678350795, guid: bf7c55b65b3029744a13c4f9d231d737,
         type: 3}
@@ -5365,7 +5363,7 @@ PrefabInstance:
     - target: {fileID: 6379887797678350795, guid: bf7c55b65b3029744a13c4f9d231d737,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6379887797678350795, guid: bf7c55b65b3029744a13c4f9d231d737,
         type: 3}
@@ -5380,7 +5378,7 @@ PrefabInstance:
     - target: {fileID: 6379887797678350795, guid: bf7c55b65b3029744a13c4f9d231d737,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 6379887797678350795, guid: bf7c55b65b3029744a13c4f9d231d737,
         type: 3}
@@ -5390,12 +5388,17 @@ PrefabInstance:
     - target: {fileID: 9001609795550555077, guid: bf7c55b65b3029744a13c4f9d231d737,
         type: 3}
       propertyPath: m_Size.x
-      value: 8.478224
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9001609795550555077, guid: bf7c55b65b3029744a13c4f9d231d737,
         type: 3}
       propertyPath: m_Center.x
-      value: -0.08685708
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9001609795550555077, guid: bf7c55b65b3029744a13c4f9d231d737,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5548,7 +5551,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
