@@ -4,8 +4,6 @@ using UnityEditor.Rendering;
 using UnityEngine;
 public class vector3 : MonoBehaviour
 {
-
-    public Transform pointB;
     public float rangeValue;
     public Quaternion currentRotation;
     public float rotSpeed;
@@ -94,6 +92,7 @@ public class vector3 : MonoBehaviour
             gameOver.SetActive(true);
             Destroy(gameObject);
         }
+        Destroy(gameObject);
     }
 
 

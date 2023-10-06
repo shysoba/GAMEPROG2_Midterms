@@ -5,10 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
-  - Bullets
   - Bullet
-  - gameOver
-  - Hitbox
+  - pinkBullet
+  - yellowBullet
+  - whiteBullet
   layers:
   - Default
   - TransparentFX

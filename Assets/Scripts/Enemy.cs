@@ -11,7 +11,7 @@ public class Enemy: MonoBehaviour
     public float rotSpeed;
     public Rigidbody rigidBody;
     public GameObject player;
-    public MeshRenderer meshRenderer;
+    public MeshRenderer mat;
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +19,7 @@ public class Enemy: MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         var currentColor = player.GetComponent<FunctionTest>().color;
 
-        meshRenderer.material.color = currentColor[Random.Range(0, currentColor.Count)];
+        mat.material.color = currentColor[Random.Range(0, currentColor.Count)];
 
     }
 
@@ -32,7 +32,7 @@ public class Enemy: MonoBehaviour
 
         if (dist <= rangeValue)
         {
-            Debug.Log("Point B has been detected");
+            Debug.Log("hehe");
         }
         LookRotation();
     }
