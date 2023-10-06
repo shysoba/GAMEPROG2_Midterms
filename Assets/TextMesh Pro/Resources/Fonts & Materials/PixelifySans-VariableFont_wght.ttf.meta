@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3a2e65d1a24ca6e4cb762702cf233151
+guid: 81e819b6e8bc2db44a85a77632be5a07
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - 8BIT WONDER
+  - Pixelify Sans
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
